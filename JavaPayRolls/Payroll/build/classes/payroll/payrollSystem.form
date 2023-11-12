@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[888, 290]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="salaryLabel" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="EmployeeNameLabel" alignment="0" max="32767" attributes="0"/>
+                      <Component id="RatePerHourLabel" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hourPerDayLabel" alignment="0" max="32767" attributes="0"/>
+                      <Component id="daysWorkedLabel" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="NameTextField" pref="150" max="32767" attributes="0"/>
+                  <Component id="rateTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="hourTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="daysWorkedTextField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="salaryTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                      <Component id="computeButton" min="-2" pref="217" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="taxLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="deductionsLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="phiHealthLabel" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="sssLabel" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="totalDeductionLabel" alignment="1" min="-2" pref="141" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="phiHealthTextField" max="32767" attributes="0"/>
+                          <Component id="taxTextField" max="32767" attributes="0"/>
+                          <Component id="sssTextField" max="32767" attributes="0"/>
+                          <Component id="totalDeductionTextField" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="finalDeductionLabel" min="-2" pref="66" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="grossSalaryLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="grossSalaryTextField" alignment="1" min="-2" pref="82" max="-2" attributes="0"/>
+                          <Component id="finalDeductionTextField" alignment="1" min="-2" pref="82" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="netsalaryLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="netSalaryTextField" min="-2" pref="82" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="301" max="-2" attributes="0"/>
+              <Component id="TitleLabel" min="-2" pref="305" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TitleLabel" min="-2" pref="28" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EmployeeNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="deductionsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="grossSalaryLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="grossSalaryTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RatePerHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="taxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finalDeductionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finalDeductionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="taxTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hourPerDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hourTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phiHealthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phiHealthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="daysWorkedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sssLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sssTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="daysWorkedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="salaryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="salaryTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="totalDeductionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="totalDeductionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="netsalaryLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="netSalaryTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="computeButton" min="-2" pref="39" max="-2" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TitleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Simple Payroll System"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmployeeNameLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Employee Name: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RatePerHourLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Rate Per Hour: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rateTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="hourPerDayLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Hour Per Day:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hourTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hourTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="daysWorkedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of days worked: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="daysWorkedTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="daysWorkedTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="salaryLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="GROSS SALARY :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="salaryTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salaryTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deductionsLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DEDUCTION OF SALARY:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="taxLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="TAX 15% of Monthly Wage"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="taxTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taxTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phiHealthLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Phihealth 5%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phiHealthTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sssLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="SSS 2%"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="sssTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalDeductionLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TOTAL DEDUCTION :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="totalDeductionTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="computeButton">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Compute"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="computeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="netsalaryLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NET SALARY :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="netSalaryTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="grossSalaryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gross Salary:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finalDeductionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Deduction:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="grossSalaryTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finalDeductionTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
