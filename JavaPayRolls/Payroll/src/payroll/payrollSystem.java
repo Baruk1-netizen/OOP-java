@@ -1,17 +1,10 @@
-
-
 package payroll;
-
-
 public class payrollSystem extends javax.swing.JFrame {
-
-   
-    public payrollSystem() {
+public payrollSystem() {
         initComponents();
     }
-
    
-    @SuppressWarnings("unchecked")
+@SuppressWarnings("unchecked")
    
     private void initComponents() {
 
